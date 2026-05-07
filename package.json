@@ -1,0 +1,21 @@
+{
+  "name": "devblog",
+  "version": "1.0.0",
+  "description": "A tech/dev blog built with Node.js and Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "marked": "^9.1.6",
+    "highlight.js": "^11.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
